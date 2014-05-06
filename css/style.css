@@ -1,0 +1,68 @@
+/* line 7, ../scss/style.scss */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: arial;
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #171f2f;
+}
+
+/* line 17, ../scss/style.scss */
+.container {
+  text-align: center;
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  margin-top: -112px;
+  background-color: #24314b;
+  background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, color-stop(0%, #24314b), color-stop(100%, #1c263a));
+  background-image: -webkit-radial-gradient(50% 50%, #24314b, #1c263a);
+  background-image: -moz-radial-gradient(50% 50%, #24314b, #1c263a);
+  background-image: -o-radial-gradient(50% 50%, #24314b, #1c263a);
+  background-image: radial-gradient(50% 50%, #24314b, #1c263a);
+  border-top: 2px solid #3d537f;
+  border-bottom: 2px solid #3d537f;
+  padding: 10px;
+  -webkit-box-shadow: 0 0 20px #0b0f17;
+  -moz-box-shadow: 0 0 20px #0b0f17;
+  box-shadow: 0 0 20px #0b0f17;
+}
+
+/* line 31, ../scss/style.scss */
+.numbers .block {
+  display: inline-block;
+  text-align: center;
+  color: #121822;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+/* line 39, ../scss/style.scss */
+.numbers .info {
+  position: absolute;
+  width: 200px;
+  margin-top: 68px;
+}
+
+/* line 44, ../scss/style.scss */
+.numbers .block span.numbers {
+  font-size: 50px;
+  text-align: center;
+  border: none;
+  background: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  color: #121822;
+  font-family: arial;
+  font-weight: bold;
+  text-shadow: 0px 1px 3px #394966;
+  display: block;
+}

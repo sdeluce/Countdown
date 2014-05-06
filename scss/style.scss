@@ -1,0 +1,57 @@
+@import "compass";
+
+$bleu:#24314b;
+$bleuclaire:#3d537f;
+$jaune:#ff8000;
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family:arial;
+	font-size: 12px;
+	position: absolute;
+	top: 0; bottom: 0;
+	left: 0; right: 0;
+	background-color: darken($bleu,8);
+}
+.container {
+	text-align: center;
+	height: 200px;
+	width: 100%;
+	position: absolute;
+	top:50%;
+	margin-top: -112px;
+	background-color: $bleu;
+	@include background-image(radial-gradient(50% 50%, $bleu, darken($bleu,5)));
+	border-top: 2px solid $bleuclaire;
+	border-bottom: 2px solid $bleuclaire;
+	padding:10px;
+	@include box-shadow(0 0 20px darken($bleu,15));
+}
+.numbers .block {
+	display: inline-block;
+	text-align: center;
+	color: #121822;
+	width: 200px;
+	height: 200px;
+	position: relative;
+}
+.numbers .info {
+	position: absolute;
+	width: 200px;
+	margin-top: 68px;
+}
+.numbers .block span.numbers {
+	font-size:50px;
+	text-align:center;
+	border:none;
+	background:none;
+	outline:none;
+	margin: 0;
+	padding: 0;
+	color:#121822;
+	font-family:arial;
+	font-weight:bold;
+	text-shadow: 0px 1px 3px #394966;
+	display: block;
+}
