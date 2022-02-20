@@ -1,0 +1,7 @@
+pages:
+  stage: build-web
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
